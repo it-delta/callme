@@ -1,0 +1,43 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<link href="./css/callme.css" type="text/css" rel="stylesheet" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript"></script>
+<script src="./js/callme.js"></script>
+</head>
+<body>
+
+	<div class="callme-phone">
+		<div class="callme-circle">
+		</div>
+	</div>
+	<div class="main-phone">
+		<p class="head">Заказать звонок</p>
+		<p class="phone">(863) 209-89-89</p>
+		<p class="phone second">(863) 200-23-65</p>
+		<p class="footer">оставьте заявку!</p>
+		<img src="./images/phone.png" />
+	</div>
+	<div class="callme-form-background"></div>
+	<div class="callme-form">
+		<div class="callme-close">&#215;</div>
+		<div class="callme-content" id="content1">
+			<div class="callme-header"> Оставьте свой телефон и мы перезвоним вам </div>
+			<div class="callme-phone-input"> 
+				<input class="callme-input name" type="text" placeholder="Введите ваше имя*" value="" maxlength="18" >
+				<input class="callme-input number" type="text" placeholder="Введите ваш телефон*" value="" maxlength="18" >
+				<input class="callme-input email" type="text" placeholder="Введите ваш E-mail" value="" maxlength="18" >
+				<input class="callme-input time" type="text" placeholder="Удобное время для звонка" value="" maxlength="18" >
+				<input class="callme-input subject" type="text" placeholder="Интересующая тема" value="" maxlength="18" >
+				<button class="callme-send">Жду звонка!</button>
+			</div>
+		</div>
+		<div class="callme-content" id="content2">
+			<div class="callme-header"> Ожидайте, мы скоро Вам перезвоним </div>
+			<div class="callme-header"> Расскажите о нас своим друзьям! </div> 
+			<script type="text/javascript" src="http://vk.com/js/api/share.js?86" charset="windows-1251"></script>
+			<a href="http://vk.com/share.php?url=http%3A%2F%2Ff-variant.ru%2Fcontacts%2F" target="_blank" style="float: left" onclick="return VK.Share.click(0, this);"><img style="position: absolute; width: 40px; height: 40px" src="./images/vkontakte-logo.png" /></a>
+		</div>
+	</div>
+</body>
+</html>
