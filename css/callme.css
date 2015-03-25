@@ -1,258 +1,252 @@
-	div.callme-phone {
-		position: fixed;
-		right: 100px;
-		bottom: 100px;
-		background: url(../images/phone-icon.png) no-repeat;
-		display: block;
-		height: 70px;
-		width: 70px;
-		background-size: cover;
-		opacity: 0.8;
-	}
-	div.callme-phone:hover {
-		cursor: pointer;
-	}
-	
-	.redBorder {
-		border: 1px solid #ff0000 !important;
-		transition: opacity 0.3s ease;
-		-webkit-transition: opacity 0.3s ease;
-		-moz-transition: opacity 0.3s ease;
-		-o-transition: opacity 0.3s ease;
-		-ms-transform: scale(1); /* IE 9 */
-		-webkit-transform: scale(1); /* Chrome, Safari, Opera */
-		transform: scale(1);
-	}
-
-	
-	div.callme-circle {
-		position: absolute;
-		background: url(../images/circle.png) no-repeat;
-		display: block;
-		height: 140px;
-		width: 140px;
-		background-size: cover;
-		opacity: 0.4;
-		left: -35px;
-		top: -35px;
-	}
-	
-	div.callme-form {
-		display: none;
-		width: 700px!important;
-		height: 430px!important;
-		position: fixed!important;
-		border-radius: 16px!important;
-		top: 100px!important;
-		background-color: #fff;
-		overflow: hidden!important;
-		top: 50% !important;
-		left: 50% !important;
-		margin-top: -250px !important;
-		margin-left: -350px !important;
-		z-index: 200001!important;
-		box-shadow: 2px 1px 3px #777;
-		-moz-box-shadow: 2px 1px 3px #777;
-		-webkit-box-shadow: 2px 1px 3px #777;
-	}
-	
-	.callme-form .callme-content {
-		width: 530px!important;
-		height: 100%!important;
-		position: relative!important;
-		top: 50px!important;
-		margin: 0 auto;
-	}
-	
-	.callme-form * {
-		font-family: 'Open Sans',sans-serif;
-		color: #333;
-		font-weight: 100;
-		letter-spacing: normal;
-	}
-	
-	.callme-form .callme-content .callme-header {
-		font-size: 24px!important;
-		line-height: 34px!important;
-		text-align: left!important;
-		margin-bottom: 20px;
-	}
-	
-	div.callme-close {
-		position: absolute;
-		right: 25px;
-		top: 10px;
-		cursor: pointer;
-		font-size: 40px;
-	}
-
-	
-	div.callme-phone-input {
-		position: relative!important;
-		z-index: 20001!important;
-		width: 600px;
-	}
-	
-	input.callme-input {
-		min-width: 500px!important;
-		width: 164px!important;
-		height: 34px!important;
-		border: 1px solid #c2c2c2;
-		font-size: 14px!important;
-		-webkit-border-radius: 4px!important;
-		-moz-border-radius: 4px!important;
-		border-radius: 4px!important;
-		background: 0 0!important;
-		color: #333!important;
-		line-height: 30px!important;
-		float: left!important;
-		display: block!important;
-		-webkit-transition: .25s ease-out!important;
-		-moz-transition: .25s ease-out!important;
-		-o-transition: .25s ease-out!important;
-		transition: .25s ease-out!important;
-		margin: 10px 15px 0 0!important;
-		padding: 0 8px!important;
-		text-align: left!important;
-		letter-spacing: normal!important;
-	}
-	input.callme-input:focus {
-		border: 1px solid #c2c2c2;
-		outline: none !important;
-		box-shadow: 0 0 10px #f57a64;
-	}
-	
-	button.callme-send {
-		width: 158px!important;
-		height: 35px!important;
-		font-size: 14px!important;
-		-webkit-border-radius: 4px!important;
-		-moz-border-radius: 4px!important;
-		border-radius: 4px!important;
-		border: 1px solid #333;
-		color: #fff!important;
-		line-height: 30px!important;
-		cursor: pointer!important;
-		margin: 20px 10px 0 0!important;
-		-webkit-transition: .25s ease-out!important;
-		-moz-transition: .25s ease-out!important;
-		-o-transition: .25s ease-out!important;
-		transition: .25s ease-out!important;
-		-webkit-box-shadow: none!important;
-		-moz-box-shadow: none!important;
-		box-shadow: none!important;
-		padding: 0!important;
-		background: #333;
-		letter-spacing: normal!important;
-		transition: all .15s ease;
-	}
-	button.callme-send:hover {
-		background: #f57a64;
-		border: 1px solid #f57a64;
-		transition: all .15s ease;
-	}
-	
-	div.callme-close {
-		color: #333;
-		transition: all .15s ease;
-	}
-	div.callme-close:hover {
-		color: #f57a64;
-		transition: all .15s ease;
-	}
-	
-	#content2 {
-		display: none;
-	}
-	
-	div.callme-form-background {
-		position: fixed !important;
-		left: 0;
-		top: 0;
-		right: 0;
-		bottom: 0;
-		opacity: 0.5;
-		background: #fff;
-		display: none;
-	}
-	
-.main-phone {
-	background: rgb(191,210,85); /* Old browsers */
-	background: -moz-linear-gradient(-45deg,  rgba(191,210,85,1) 0%, rgba(142,185,42,1) 50%, rgba(114,170,0,1) 51%, rgba(158,203,45,1) 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, right bottom, color-stop(0%,rgba(191,210,85,1)), color-stop(50%,rgba(142,185,42,1)), color-stop(51%,rgba(114,170,0,1)), color-stop(100%,rgba(158,203,45,1))); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(-45deg,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(-45deg,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(-45deg,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* IE10+ */
-	background: linear-gradient(135deg,  rgba(191,210,85,1) 0%,rgba(142,185,42,1) 50%,rgba(114,170,0,1) 51%,rgba(158,203,45,1) 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bfd255', endColorstr='#9ecb2d',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-	display: inline-block; 
-	border-radius: 10px;
-	cursor: pointer;
-	box-shadow: 0px 0px 0px #fff;
-	transition: all .5s ease;
-	position: fixed;
-	top: 100px;
-	right: 50px;
-	z-index: 9999;
-	opacity: 0.5;
+/* Цвет выделения при ошибке */
+/* Основной цвет */
+/* Ширина формы */
+/* Высота формы */
+/* Ширина контента формы */
+div.callme-phone {
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+  background: url(../images/phone-icon.png) no-repeat;
+  display: block;
+  height: 70px;
+  width: 70px;
+  background-size: cover;
+  opacity: 0.8;
 }
-.main-phone:hover {
-	opacity: 1;
-	box-shadow: 0px 0px 20px #fff;
-	transition: all .5s ease;
+div.callme-phone:hover {
+  cursor: pointer;
 }
-.main-phone p.head {
-	position: absolute;
-	font-size: 24px;
-	font-family: arial;
-	color: white;
-	font-weight: bold;
-	margin: 0 0 0 5px;
-	text-shadow: 1px 5px 10px #000;
-	padding: 0;
+.redBorder {
+  border: 1px solid #ff0000 !important;
+  transition: opacity 0.3s ease;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  -ms-transform: scale(1);
+  /* IE 9 */
+  -webkit-transform: scale(1);
+  /* Chrome, Safari, Opera */
+  transform: scale(1);
 }
-.main-phone p.phone {
-	position: absolute;
-	font-size: 18px;
-	font-family: arial;
-	color: white;
-	margin: 50px 0 0 5px;
-	text-shadow: 1px 5px 10px #000;
-	padding: 0;
+div.callme-circle {
+  position: absolute;
+  background: url(../images/circle.png) no-repeat;
+  display: block;
+  height: 140px;
+  width: 140px;
+  background-size: cover;
+  opacity: 0.4;
+  left: -35px;
+  top: -35px;
 }
-.main-phone p.phone.second {
-	margin: 80px 0 0 5px;
+div.callme-form {
+  display: none;
+  width: 700px !important;
+  height: 430px !important;
+  position: fixed!important;
+  border-radius: 16px!important;
+  top: 100px!important;
+  background-color: #fff;
+  overflow: hidden!important;
+  top: 50% !important;
+  left: 50% !important;
+  margin-top: -250px !important;
+  margin-left: -350px !important;
+  z-index: 200001!important;
+  box-shadow: 2px 1px 3px #777;
+  -moz-box-shadow: 2px 1px 3px #777;
+  -webkit-box-shadow: 2px 1px 3px #777;
 }
-.main-phone p.footer {
-	position: absolute;
-	font-size: 17px;
-	font-family: arial;
-	color: white;
-	font-weight: bold;
-	margin: 120px 0 0 5px;
-	text-shadow: 1px 5px 10px #000;
-	padding: 0;
+.callme-form .callme-content {
+  width: 530px !important;
+  height: 100%!important;
+  position: relative!important;
+  top: 50px!important;
+  margin: 0 auto;
+}
+.callme-form * {
+  font-family: 'Open Sans', sans-serif;
+  color: #333;
+  font-weight: 100;
+  letter-spacing: normal;
+}
+.callme-form .callme-content .callme-header {
+  font-size: 24px!important;
+  line-height: 34px!important;
+  text-align: left!important;
+  margin-bottom: 20px;
+}
+div.callme-close {
+  position: absolute;
+  right: 25px;
+  top: 10px;
+  cursor: pointer;
+  font-size: 40px;
+}
+div.callme-phone-input {
+  position: relative!important;
+  z-index: 20001!important;
+  width: 600px;
+}
+input.callme-input {
+  min-width: 500px!important;
+  width: 164px!important;
+  height: 34px!important;
+  border: 1px solid #c2c2c2;
+  font-size: 14px!important;
+  -webkit-border-radius: 4px!important;
+  -moz-border-radius: 4px!important;
+  border-radius: 4px!important;
+  background: 0 0!important;
+  color: #333!important;
+  line-height: 30px!important;
+  float: left!important;
+  display: block!important;
+  -webkit-transition: 0.25s ease-out !important;
+  -moz-transition: 0.25s ease-out !important;
+  -o-transition: 0.25s ease-out !important;
+  transition: 0.25s ease-out !important;
+  margin: 10px 15px 0 0!important;
+  padding: 0 8px!important;
+  text-align: left!important;
+  letter-spacing: normal!important;
+}
+input.callme-input:focus {
+  border: 1px solid #c2c2c2;
+  outline: none !important;
+  box-shadow: 0 0 10px #f57a64;
+}
+button.callme-send {
+  width: 158px!important;
+  height: 35px!important;
+  font-size: 14px!important;
+  -webkit-border-radius: 4px!important;
+  -moz-border-radius: 4px!important;
+  border-radius: 4px!important;
+  border: 1px solid #333;
+  color: #fff!important;
+  line-height: 30px!important;
+  cursor: pointer!important;
+  margin: 20px 10px 0 0!important;
+  -webkit-transition: 0.25s ease-out !important;
+  -moz-transition: 0.25s ease-out !important;
+  -o-transition: 0.25s ease-out !important;
+  transition: 0.25s ease-out !important;
+  -webkit-box-shadow: none!important;
+  -moz-box-shadow: none!important;
+  box-shadow: none!important;
+  padding: 0!important;
+  background: #333;
+  letter-spacing: normal!important;
+  transition: all .15s ease;
+}
+button.callme-send:hover {
+  background: #f57a64;
+  border: 1px solid #f57a64;
+  transition: all .15s ease;
+}
+div.callme-close {
+  color: #333;
+  transition: all .15s ease;
+}
+div.callme-close:hover {
+  color: #f57a64;
+  transition: all .15s ease;
 }
 #content2 {
-	top: 130px!important;
+  display: none;
 }
-
-
-@media (max-width : 1500px) {
-	.main-phone {
-		right: -100px;
-	}
-	.main-phone:hover {
-		right: 0px !important;
-		transition: all .5s ease;
-	}
+div.callme-form-background {
+  position: fixed !important;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  background: #fff;
+  display: none;
 }
-
-
-@media (max-width : 1030px) 
-{
-	.main-phone {
-		display: none;
-	}
-	
+.main-phone {
+  background: #bfd255;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #bfd255), color-stop(50%, #8eb92a), color-stop(51%, #72aa00), color-stop(100%, #9ecb2d));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(-45deg, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(-45deg, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(-45deg, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+  /* IE10+ */
+  background: linear-gradient(135deg, #bfd255 0%, #8eb92a 50%, #72aa00 51%, #9ecb2d 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#bfd255', endColorstr='#9ecb2d', GradientType=1);
+  /* IE6-9 fallback on horizontal gradient */
+  display: inline-block;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 0px 0px 0px #fff;
+  transition: all .5s ease;
+  position: fixed;
+  top: 100px;
+  right: 50px;
+  z-index: 9999;
+  opacity: 0.5;
 }
+.main-phone:hover {
+  opacity: 1;
+  box-shadow: 0px 0px 20px #fff;
+  transition: all .5s ease;
+}
+.main-phone p.head {
+  position: absolute;
+  font-size: 24px;
+  font-family: arial;
+  color: white;
+  font-weight: bold;
+  margin: 0 0 0 5px;
+  text-shadow: 1px 5px 10px #000;
+  padding: 0;
+}
+.main-phone p.phone {
+  position: absolute;
+  font-size: 18px;
+  font-family: arial;
+  color: white;
+  margin: 50px 0 0 5px;
+  text-shadow: 1px 5px 10px #000;
+  padding: 0;
+}
+.main-phone p.phone.second {
+  margin: 80px 0 0 5px;
+}
+.main-phone p.footer {
+  position: absolute;
+  font-size: 17px;
+  font-family: arial;
+  color: white;
+  font-weight: bold;
+  margin: 120px 0 0 5px;
+  text-shadow: 1px 5px 10px #000;
+  padding: 0;
+}
+#content2 {
+  top: 130px!important;
+}
+@media (max-width: 1500px) {
+  .main-phone {
+    right: -100px;
+  }
+  .main-phone:hover {
+    right: 0px !important;
+    transition: all .5s ease;
+  }
+}
+@media (max-width: 1030px) {
+  .main-phone {
+    display: none;
+  }
+}
+/*# sourceMappingURL=callme.css.map */
