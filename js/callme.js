@@ -109,7 +109,7 @@ Callme.prototype.startAnimation = function() {
  * @returns {undefined}
  */
 Callme.prototype.sendMessage = function(url) {
-    if(!$(".callme-input.number").val().match(/^[+]?\d+$/) || $(".callme-input.name").val().length === 0){
+    if(!$(".callme-input.number").val().match(/^[+]?\d+$/) || $(".callme-input.number").val().length === 0){
 	$(".callme-input.number").keyup();
 	$(".callme-input.name").keyup();
 	return false;
